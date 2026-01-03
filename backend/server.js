@@ -19,7 +19,6 @@ mongoose
     console.error(err.message);
   });
 
-// Routes
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/admin", require("./routes/admin"));
 app.use("/api/user", require("./routes/user"));
