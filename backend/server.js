@@ -19,10 +19,10 @@ mongoose
     console.error(err.message);
   });
 
-app.use("/api/auth", require("./routes/auth"));
-app.use("/api/admin", require("./routes/admin"));
-app.use("/api/user", require("./routes/user"));
-app.use("/api/surveys", require("./routes/surveyRoutes"));
+app.use("/auth", require("./routes/auth"));
+app.use("/admin", require("./routes/admin"));
+app.use("/user", require("./routes/user"));
+app.use("/surveys", require("./routes/surveyRoutes"));
 
 app.get("/", (req, res) => {
   res.send("Backend running ");
