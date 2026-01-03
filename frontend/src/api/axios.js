@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5002/api',
+  baseURL: 'https://survery-1.onrender.com',
   headers: {
     'Content-Type': 'application/json'
   }
