@@ -4,7 +4,7 @@
   "description": "Backend for Survey Application",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
